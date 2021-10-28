@@ -10,11 +10,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FirstComponentComponent } from './first-component/first-component.component';
 import { FirstComponentModule } from './shared/components/first-component/first-component.component';
+import { UserComponent } from './pages/user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstComponentComponent
+    FirstComponentComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
